@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Registration Form</title>
+    
+</head>
+<body>
+  <div>
+      <h2>User Registration From </h2>
+      <form id="register" method="post">
+        <label> First name: </label>       
+        <input type="text" name="firstname" size="15"/ placeholder="Enter Your First Name"> <br> <br>
+        <label> Last name: </label>       
+        <input type="text" name="lastname" size="15"/  placeholder="Enter Your Last Name"> <br> <br>
+          
+        <label>Your age : </label>
+        <input type ="number" name="fage" size="15" placeholder="How old are you?"><br><br>
+          
+        <label>Email : </label>
+        <input type ="text" name="email" size="15" placeholder="Enter Your Valid Email"> <br><br>
+          
+        <label>Phone Number : </label>
+         
+        <input type ="text" name="phone" size="11" placeholder="11 digit maximum"><br><br>
+          
+           <p>Gender:
+            <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+                <option value="2">Others</option>
+                <option value="3">I would rather not say</option>
+              </select>
+            </p>
+        <p>
+            
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+        </p>
+        <br><br>
+           <label>City : </label>
+         
+          <input type ="text" name="city" id="name"
+           placeholder="Dhaka">
+           <br><br>
+           <label>Zip Code : </label>
+         
+          <input type ="text" name="code" id="name"
+           placeholder="1215">
+        
+        <p>
+            <label>Address: </label>
+            <br>
+            <br>
+            <textarea id="Address" name="Address" rows="4" cols="50" placeholder="Enter full address"></textarea>
+        </p>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+        <label for="vehicle1"> I agree with the terms and conditions.</label>
+        <br>
+        <input type="button" class="button" value="Submit">
+    </form>
+
+  </div>  
+  
+  </body>
+</body>
+</html>
